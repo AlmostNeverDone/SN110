@@ -84,37 +84,24 @@ This project demonstrates the installation, configuration, and rule writing of S
 
 
 ---------
+
 <h2>Results 成果展示</h2>
 
-This project successfully demonstrated the use of extended IPv4 Access Control Lists (ACLs) to enforce fine-grained traffic restrictions across a simulated enterprise network. By applying a named ACL on the router interface, we controlled access to different services based on both the source device and the destination server.
+Successfully installed and verified Snort 3 on Kali Linux.
 
-本專題成功展示了如何使用 延伸 IPv4 ACL 來在模擬企業網路中進行細緻的流量限制。透過在路由器介面套用命名 ACL，我們能根據 來源端設備 與 目的伺服器 來管控不同服務的存取。
+Configured custom ICMP detection rules in icmp.rules and integrated them into snort.lua.
 
-Key results included:<br/>主要成果如下：</b><br/>
+Executed Snort with console output and confirmed real-time alerts triggered by ICMP packets (ping).
 
-* PC1 was blocked from accessing the HTTP/HTTPS services of both servers, ensuring restricted web access.<br/>
-  (PC1 被阻擋存取兩台伺服器的 HTTP/HTTPS 服務，確保網頁存取受限)</b>
+Demonstrated understanding of Snort 3 rule structure and differences from Snort 2 configuration.
 
-* PC2 was blocked from FTP access, simulating file transfer limitations.<br/>
-  (PC2 被阻擋 FTP 存取，模擬檔案傳輸限制)</b>
+成功在 Kali Linux 上安裝並驗證 Snort 3。
 
-* PC3 was restricted from ICMP (ping) traffic, preventing basic connectivity checks.<br/>
-  (PC3 被限制 ICMP (ping) 流量，避免進行連線測試)</b>
+在 icmp.rules 中設定 自訂 ICMP 偵測規則，並整合至 snort.lua。
 
-* Other legitimate traffic was permitted, ensuring normal network operations.<br/>
-  (其他合法流量則被允許，確保正常的網路運作)</b>
-  <br/>
+使用終端機輸出模式執行 Snort，並確認 即時警示 在 ICMP 封包 (ping) 時觸發。
 
-Through these steps, the lab highlighted how ACLs provide a layered approach to network security, enabling administrators to enforce policies that align with organizational needs. This exercise also strengthened skills in router configuration, verification commands, and troubleshooting within a controlled Packet Tracer environment.
-
-透過這些操作，本專題強調了 ACL 如何提供 分層式的網路安全防護，協助管理員依照組織需求制定政策。本次實作同時強化了在 路由器設定、驗證指令及故障排除 方面的實務能力，並在 Packet Tracer 環境下提供安全的學習與測試平台。
-
-<p align="center"> <b>Command Differences<br/>(指令差異)</b> </p>
-
-| Command <br/>(指令)     | Description <br/>(說明)                                                                                                                                                             | 中文說明                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| `show access-lists`   | Displays all ACL rules with **sequence numbers**. Sequence numbers define the processing order of ACL entries and allow easier modifications (e.g., inserting or deleting rules). | 顯示所有 ACL 規則，並附帶**序號**。序號決定 ACL 規則的處理順序，也方便後續修改（例如插入或刪除特定規則）。 |
-| `show running-config` | Displays the device’s current configuration file, including ACLs, but **without sequence numbers**. The ACL rules are shown only as part of the full configuration.               | 顯示設備目前的設定檔，其中包含 ACL，但**不會顯示序號**。ACL 規則僅作為整體設定的一部分被列出。        |
+展示對 Snort 3 規則結構及其與 Snort 2 組態差異的理解。
 
 ---------
 
