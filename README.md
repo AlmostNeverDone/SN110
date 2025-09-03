@@ -39,44 +39,6 @@ This project demonstrates the installation, configuration, and rule writing of S
 
 ---------
 
-<h2>Background Settings 背景設定</h2>
-
-<p align="center">
-<b>Addressing Table (網路拓樸)</b><br/>
-<img src="https://i.imgur.com/acBAYqs.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-<div align="center">
-<b>Addressing Table (設備位址表)</b>
-</p>
-
-| Device <br/>(設備) | Interface <br/>(介面) | IP Address <br/>(IP 位址) | Subnet Mask <br/>(子網路遮罩) | Default Gateway <br/>(預設閘道) |
-| ----------------- | ---------------------- | -------------------------- | ----------------------------- | ------------------------------- |
-| RT1               | G0/0                   | 172.31.1.126               | 255.255.255.224               | N/A                             |
-| RT1               | S0/0/0                 | 209.165.1.2                | 255.255.255.252               | N/A                             |
-| PC1               | NIC                    | 172.31.1.101               | 255.255.255.224               | 172.31.1.126                    |
-| PC2               | NIC                    | 172.31.1.102               | 255.255.255.224               | 172.31.1.126                    |
-| PC3               | NIC                    | 172.31.1.103               | 255.255.255.224               | 172.31.1.126                    |
-| Server1           | NIC                    | 64.101.255.254             | N/A                           | N/A                             |
-| Server2           | NIC                    | 64.103.255.254             | N/A                           | N/A                             |
-</div>
-<br/>
-
-In this scenario, specific devices on the LAN are allowed or restricted when accessing different services provided by servers located on the Internet. (在此情境中，區域網路中的特定裝置在存取位於網際網路伺服器的不同服務時，會受到允許或限制。)
-
-* PC1 should be blocked from accessing HTTP (port 80) and HTTPS (port 443) on Server1 and Server2.<br/>
-  PC1 應被禁止存取 Server1 與 Server2 的 HTTP (80) 與 HTTPS (443) 服務</b>
-  <br/>
-  
-* PC2 should be blocked from accessing FTP (port 21) on Server1 and Server2.<br/>
-  PC2 應被禁止存取 Server1 與 Server2 的 FTP (21) 服務</b>
-* PC3 should be blocked from sending ICMP (ping) to Server1 and Server2.<br/>
-  PC3 應被禁止對 Server1 與 Server2 發送 ICMP (ping) 封包</b>
-* All other traffic should be permitted<br/>
-  其他所有流量則允許通過</b>
-
----------
 
 <h2>Materials and Methods 材料與方法</h2>
 
