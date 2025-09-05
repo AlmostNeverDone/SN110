@@ -45,7 +45,7 @@ This project demonstrates the installation, configuration, and rule writing of S
 [Environment]
 * Oracle VM VirtualBox (VirtualBox 虛擬機)</b>
 * Kali Linux OS (Kali Linux 作業系統)</b>
-* Snort3 </b>
+* Snort 3 Intrusion Detection System (Snort 3 入侵檢測系統)</b>
 
 [Tasks]
 * Install Snort 3 (安裝 Snort 3)</b>
