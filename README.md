@@ -88,21 +88,18 @@ This project demonstrates the installation, configuration, and rule writing of S
 
 <h2>Results 成果展示</h2>
 
-Successfully installed and verified Snort 3 on Kali Linux.
+* Successfully installed and verified Snort 3 on Kali Linux.<br/>
+  (成功在 Kali Linux 上安裝並驗證 Snort 3)
 
-Configured custom ICMP detection rules in icmp.rules and integrated them into snort.lua.
+* Configured custom ICMP detection rules in icmp.rules and integrated them into snort.lua.<br/>
+  (在 icmp.rules 中設定 自訂 ICMP 偵測規則，並整合至 snort.lua)
+  
+* Executed Snort with console output and confirmed real-time alerts triggered by ICMP packets (ping).<br/>
+  (使用終端機輸出模式執行 Snort，並確認 即時警示 在 ICMP 封包   (ping) 時觸發)
+  
+* Demonstrated understanding of Snort 3 rule structure and differences from Snort 2 configuration.<br/>
+  (展示對 Snort 3 規則結構及其與 Snort 2 組態差異的理解)
 
-Executed Snort with console output and confirmed real-time alerts triggered by ICMP packets (ping).
-
-Demonstrated understanding of Snort 3 rule structure and differences from Snort 2 configuration.
-
-成功在 Kali Linux 上安裝並驗證 Snort 3。
-
-在 icmp.rules 中設定 自訂 ICMP 偵測規則，並整合至 snort.lua。
-
-使用終端機輸出模式執行 Snort，並確認 即時警示 在 ICMP 封包 (ping) 時觸發。
-
-展示對 Snort 3 規則結構及其與 Snort 2 組態差異的理解。
 
 ---------
 
