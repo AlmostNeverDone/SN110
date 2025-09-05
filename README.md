@@ -16,7 +16,7 @@ This project demonstrates the installation, configuration, and rule writing of S
 
 * Configure Snort rules and configuration files. (設定 Snort 規則與組態檔)
 
-* Write custom Snort rules (ICMP detection). (撰寫自訂 Snort 規則 (ICMP 偵測))
+* Writing Snort rules to detect ICMP. (撰寫偵測 ICMP 的 Snort 規則)
 
 * Test rules and observe alerts in the console. (測試規則並於終端機觀察警示)
 
@@ -45,40 +45,42 @@ This project demonstrates the installation, configuration, and rule writing of S
 [Environment]
 * Oracle VM VirtualBox (VirtualBox 虛擬機)</b>
 * Kali Linux OS (Kali Linux 作業系統)</b>
-* Cisco Packet Tracer 8.2.2 </b>
+* Snort3 </b>
 
 [Tasks]
-* Configure a Named Extended ACL (設定命名延伸 ACL)</b>
-* Verify ACL Configuration (驗證 ACL 設定)</b>
-* Apply the ACL on the Interface (在介面上套用 ACL)</b>
-* Test the ACL Implementation (測試 ACL 實作)</b>
+* Install Snort 3 (安裝 Snort 3)</b>
+* Verify Snort Installation (確認安裝)</b>
+* Create a Custom Rule File (建立自訂規則檔)</b>
+* Configure snort.lua (設定 snort.lua)</b>
+* Run Snort with Configuration (執行 Snort)</b>
+* Test the Rule (測試規則)</b>
 
 ---------
 
 <h2>Practice 實踐</h2>
 
 <p align="center">
-<b>Task 1: Configure a Named Extended ACL<br/>(設定命名延伸 ACL)</b><br/>
+<b>Task 1: Install Snort 3<br/>(安裝 Snort 3)</b><br/>
 <img src="https://i.imgur.com/OAxFGYt.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 2: Verify ACL Configuration<br/>(驗證 ACL 設定)</b><br/>
+<b>Task 2: Verify Snort Installation<br/>(確認安裝)</b><br/>
 <img src="https://i.imgur.com/Nws9sQv.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 3: Apply the ACL on the Interface<br/>(在介面上套用 ACL)</b><br/>
+<b>Task 3: Create a Custom Rule File<br/>(建立自訂規則檔)</b><br/>
 <img src="https://i.imgur.com/3Zaz1Hh.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 4-1: PC1 to Server1 & Server2</b><br/>
+<b>Task 4: Configure snort.lua<br/>(設定 snort.lua)</b><br/>
 <img src="https://i.imgur.com/PFXcRvZ.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 4-2: PC2 to Server1 & Server2</b><br/>
+<b>Task 5: Run Snort with Configuration<br/>(執行 Snort)</b><br/>
 <img src="https://i.imgur.com/4gAecmw.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<b>Task 4-3: PC3 to Server1 & Server2</b><br/>
+<b>Task 6: Test the Rule<br/>(測試規則)</b><br/>
 <img src="https://i.imgur.com/mp6TlYd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
