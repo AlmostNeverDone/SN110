@@ -61,29 +61,28 @@ This project demonstrates the installation, configuration, and rule writing of S
 
 <p align="center">
 <b>Task 1: Install Snort 3<br/>(安裝 Snort 3)</b><br/>
-<img src="https://i.imgur.com/OAxFGYt.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AcDYaXN.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <b>Task 2: Verify Snort Installation<br/>(確認安裝)</b><br/>
-<img src="https://i.imgur.com/Nws9sQv.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wZEG9at.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <b>Task 3: Create a Custom Rule File<br/>(建立自訂規則檔)</b><br/>
-<img src="https://i.imgur.com/3Zaz1Hh.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gYm5K22.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <b>Task 4: Configure snort.lua<br/>(設定 snort.lua)</b><br/>
-<img src="https://i.imgur.com/PFXcRvZ.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nxOOOIs.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <b>Task 5: Run Snort with Configuration<br/>(執行 Snort)</b><br/>
-<img src="https://i.imgur.com/4gAecmw.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nXQoLa0.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <b>Task 6: Test the Rule<br/>(測試規則)</b><br/>
-<img src="https://i.imgur.com/mp6TlYd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WCj2tLW.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-
 
 ---------
 
